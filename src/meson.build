@@ -37,4 +37,6 @@ endif
 
 blas = library('blas',
   sources: [blas1, allblas, blas2, blas3],
+  install: true,
+  install_dir: install_dir,
 )
